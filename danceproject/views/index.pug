@@ -1,0 +1,23 @@
+doctype html
+head
+    title this is title 
+    style
+        include ../static/style.css
+body
+    nav#navbar.top 
+        ul
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Service]
+            li #[a(href='/') Class Info] 
+            li #[a(href='/') Contact us] 
+    div.container
+        section#introsection 
+            | Introduction 
+        section#sponsorsection 
+            | sponsor section
+        footer#footer 
+            | Our sponsors
+        
+    script 
+        include ../static/index.js 

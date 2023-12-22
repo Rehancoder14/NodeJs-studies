@@ -1,0 +1,11 @@
+nav ul li{
+    display: flex;
+    background-color: grey;
+    margin: 0;
+    padding: 0 100;
+    color: white;
+}
+/* 
+nav ul li{
+    padding-left: 15px;
+} */

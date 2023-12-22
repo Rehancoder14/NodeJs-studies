@@ -1,0 +1,63 @@
+
+
+*{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+}
+body::before{
+    content:"" ;
+    height: 88%;
+    opacity: 0.8;
+    z-index: -1;
+   
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url('static/gym.jpg') no-repeat center center;
+}
+nav{
+    background-color: black;
+    padding: 12px 14px;
+}
+ul{
+    display: flex;
+    flex-direction:  row;
+}
+li{
+    list-style: none;
+    padding: 3px 17px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+.container{
+   
+    text-align: center;
+    margin: 12px auto;
+    background: url('static/gym.jpg') no-repeat center center cover;
+    max-width: 70%;
+}
+input, textarea{
+    display: block;
+    margin:15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    margin: 4px auto;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
